@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import time
 
 # Define the Lorenz 86 function model
-
 def lorenz96(t, v):
     dXdt = np.zeros_like(v)
     # iterate over all the indeces
